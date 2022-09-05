@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Register Produk</title>
+</head>
+<body>
+    <form name="form_register" action="#" method="GET">
+        <table border="0" cellpadding="10"  align="center">
+            <thead>
+                <tr style="background-color:grey">
+                    <th colspan="2" style="font-size: larger; font-family: 'Times New Roman', Times, serif;">Form Register Produk</th>
+                </tr>
+            </thead>
+            <tbody>
+				<tr>
+				    <td ><label>Nama Produk</label></td>
+					<td>
+					    <input type="text" name="input_nama_produk"  value="" placeholder=""  maxlength="100"/>
+					</td>
+				</tr>
+                <tr>
+                    <td><label for="jenis_produk">Jenis Produk</label></td>
+                    <td><select name="" id="" style="max-width: 175px; min-width: 175px;">
+                        <option value="">- Kategori Produk -</option>
+                        <option value="Hardware">Hardware</option>
+                        <option value="Software">Software</option>
+                        <option value="Makanan">Makanan</option>
+                        <option value="Minuman">Minuman</option>
+                    </select></td>
+                </tr>
+                <tr>
+				    <td><label>Harga</label></td>
+					<td>
+					    <input type="text" name="input_harga" value="" placeholder=""  maxlength="100"/>
+					</td>
+				</tr>
+                <tr>
+				    <td><label>Stok</label></td>
+					<td>
+					    <input type="text" name="input_stok" value="" placeholder=""  maxlength="100"/>
+					</td>
+				</tr>
+                <tr>
+				    <td><label>Photo</label></td>
+					<td>
+					    <input type="text" name="input_photo" value="" placeholder=""  maxlength="100"/>
+					</td>
+				</tr>
+            </tbody>
+            <tfoot>
+			    <tr style="background-color: grey">
+				    <th colspan="2">
+					    <input type="submit" name="proses" value="Kirim" />&nbsp;&nbsp;
+						<input type="reset" name="unproses" value="Batal" />
+					</th>
+				</tr>
+			</tfoot>
+        </table>
+    </form>
+</body>
+</html>
